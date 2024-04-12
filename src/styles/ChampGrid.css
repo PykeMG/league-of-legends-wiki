@@ -1,0 +1,38 @@
+.champgrid{
+    width: 100%;
+}
+
+.champgrid::after{
+    content: "";
+    display: block;
+    width: 11%;
+    padding: 6%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.champgrid .champname{
+    transition: 500ms ease-in;
+}
+
+.champgrid:hover .champname{
+    background-image: linear-gradient(to right, #005a82, #0ac8b9);
+    width: 100%;
+    transition: 500ms ease-in-out;
+}
+
+.champgrid .champ_image{
+    transform: scale(1.1);
+    transition: 500ms ease-in-out;
+}
+
+.champgrid:hover .champ_image{
+    transform: scale(1.06);
+}
+
+.champgrid:hover .champname h2{
+    padding-left: 16px;
+    transition: 500ms;
+}

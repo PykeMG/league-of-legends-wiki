@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "bold-lol";
+  src: url("../public/fonts/BeaufortforLOLBold.ttf");
+}
+
+@font-face {
+  font-family: "regular-lol";
+  src: url("../public/fonts/BeaufortforLOLRegular.ttf");
+}
+
+body {
+  font-family: 'regular-lol', sans-serif;
+}
+
+h1,h2,h3{
+  font-family: 'bold-lol', sans-serif;
+}
+h4{
+  font-family: 'Ones Variable', sans-serif;
+}
